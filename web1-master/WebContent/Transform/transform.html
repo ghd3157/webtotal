@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<style>
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+
+#manu {width: 1000px; margin: 0 auto; border: 1px solid gray; height: 300px;}
+ul {overflow: hidden; height: 300px;}
+li {float:left; padding: 20px 30px; border: 1px solid gray; background-color: yellow; color: white;}
+li:nth-child(1):hover {background-color: red; transform:scale(2); transform-origin:50% 0; z-index:999;}
+
+li:nth-child(2):hover {	background-color: red; transform:skew(10deg); z-index:999;}
+li:nth-child(3):hover {	background-color: red; animation-name:ani; 
+animation-duration:2s; animation-iteration-count:infinity;}
+
+@keyframes ani{
+from {
+
+}
+to { transform:scale(2) rotate(15deg) skew(-20deh); transform-origin:50% 0; z-index:9999;
+
+}
+}
+</style>
+
+
+<body>
+
+<div id="menu">
+<ul>
+<li>lnb1</li>
+<li>lnb2</li>
+<li>lnb3</li>
+<li>lnb4</li>
+<li>lnb5</li>
+</ul>
+</div>
+</body>
+</html>

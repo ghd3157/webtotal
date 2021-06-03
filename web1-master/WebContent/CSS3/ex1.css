@@ -1,0 +1,4 @@
+#wrap {width: 1000px; margin: 0 auto; border: 1px solid #cccccc;}
+#wrap #header h1{background-color: yellow; text-align: center; height: 200px;}
+#wrap #section {background-color: green; color: white; height: 300px;}
+#wrap #footer {background-color: orange; height: 100px; text-align: center;}
